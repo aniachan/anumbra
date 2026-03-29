@@ -1,0 +1,13 @@
+{
+  "Author": "aniachan",
+  "Name": "Anumbra",
+  "Punchline": "Adds image previews to Penumbra's mod panel.",
+  "Description": "Hooks into Penumbra via IPC and renders a scrollable image carousel above the tab bar whenever a mod with an \"images\" subfolder is selected.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "penumbra",
+    "mods",
+    "preview",
+    "images"
+  ]
+}

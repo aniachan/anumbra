@@ -1,0 +1,25 @@
+[
+  {
+    "Author": "aniachan",
+    "Name": "Anumbra",
+    "Description": "Hooks into Penumbra via IPC and renders a scrollable image carousel above the tab bar whenever a mod with an \"images\" subfolder is selected.",
+    "InternalName": "Anumbra",
+    "AssemblyVersion": "0.0.0.1",
+    "TestingAssemblyVersion": "0.0.0.1",
+    "RepoUrl": "https://github.com/aniachan/Anumbra",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 14,
+    "TestingDalamudApiLevel": 14,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": 0,
+    "LoadPriority": 69420,
+    "LoadRequiredState": 2,
+    "LoadSync": true,
+    "DownloadLinkInstall": "https://github.com/aniachan/anumbra/releases/download/0.0.0.1/Anumbra.zip",
+    "DownloadLinkTesting": "https://github.com/aniachan/anumbra/releases/download/0.0.0.1/Anumbra.zip",
+    "DownloadLinkUpdate": "https://github.com/aniachan/anumbra/releases/download/0.0.0.1/Anumbra.zip",
+    "IconUrl": "https://raw.githubusercontent.com/aniachan/anumbra/master/images/icon.png"
+  }
+]
