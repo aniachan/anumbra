@@ -29,9 +29,9 @@ jobs:
         run: |
           dotnet build --no-restore --configuration Release --nologo
       - name: Archive
-        run: Compress-Archive -Path Anumbra/bin/Release/* -DestinationPath Anumbra.zip
+        run: Compress-Archive -Path Anumbra/bin/x64/Release/* -DestinationPath Anumbra.zip
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4
         with:
           path: |
-            ./Anumbra/bin/Release/*
+            ./Anumbra/bin/x64/Release/*

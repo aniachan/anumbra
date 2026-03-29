@@ -31,18 +31,18 @@ jobs:
       - name: write version into jsons
         run: |
           $ver = '${{ github.ref_name }}'
-          $path = './Anumbra/bin/Release/Anumbra.json'
+          $path = './Anumbra/bin/x64/Release/Anumbra.json'
           $json = Get-Content -Raw $path | ConvertFrom-Json
           $json.AssemblyVersion = $ver
           $content = $json | ConvertTo-Json
           set-content -Path $path -Value $content
       - name: Archive
-        run: Compress-Archive -Path Anumbra/bin/Release/* -DestinationPath Anumbra.zip
+        run: Compress-Archive -Path Anumbra/bin/x64/Release/* -DestinationPath Anumbra.zip
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4
         with:
           path: |
-            ./Anumbra/bin/Release/*
+            ./Anumbra/bin/x64/Release/*
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
